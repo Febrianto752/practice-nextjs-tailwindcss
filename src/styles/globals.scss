@@ -1,3 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --primary-color: #0c111f;
+  --active-primary-color: #05080e;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+$primary-color: #0c111f;
+$secondary-color: #1c3f4d;
+$gray-color: #70737c;
+
+$light-gray-color: #6f717a;
+// teal-400 sepertinya
+$teal-color: #07b3ae;
+
+.text-gray {
+  color: $gray-color;
+}
+
+.text-light-gray {
+  color: $light-gray-color;
+}
+
+.text-teal {
+  color: $teal-color;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.bg-primary1 {
+  background: $primary-color;
+}
+
+.bg-secondary {
+  background-color: $secondary-color;
+}
+
+.outline-primary {
+  outline-color: $primary-color;
+}
