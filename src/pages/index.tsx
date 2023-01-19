@@ -3,6 +3,7 @@ import Navbar from "@/components/organisms/Navbar";
 import Banner from "@/components/organisms/Banner";
 import Destination from "@/components/organisms/Destination";
 import Features from "@/components/organisms/Features";
+import Gallery from "@/components/organisms/Gallery";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <main id="maincontent">
         <Destination />
         <Features />
+        <Gallery />
       </main>
 
       <br />
