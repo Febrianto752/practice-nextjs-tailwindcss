@@ -5,6 +5,7 @@ import Destination from "@/components/organisms/Destination";
 import Features from "@/components/organisms/Features";
 import Gallery from "@/components/organisms/Gallery";
 import Subscribe from "@/components/organisms/Subscribe";
+import Footer from "@/components/organisms/Footer";
 
 export default function Home() {
   return (
@@ -24,18 +25,8 @@ export default function Home() {
         <Features />
         <Gallery />
         <Subscribe />
+        <Footer />
       </main>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </>
   );
 }
