@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "@/components/organisms/Navbar";
 import Banner from "@/components/organisms/Banner";
 import Destination from "@/components/organisms/Destination";
+import Features from "@/components/organisms/Features";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </header>
       <main id="maincontent">
         <Destination />
+        <Features />
       </main>
 
       <br />
