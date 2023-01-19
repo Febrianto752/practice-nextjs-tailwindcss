@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="relative rounded-br-xl rounded-bl-xl overflow-hidden ">
+      <header className="relative  ">
         <Navbar />
         <Banner />
       </header>

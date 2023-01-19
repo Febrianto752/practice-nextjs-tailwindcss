@@ -13,7 +13,7 @@ function Destination() {
         ingin pergi menikmati liburan
       </p>
 
-      <div className="flex flex-wrap space-x-4  justify-center content-center mt-12">
+      <div className="flex flex-wrap sm:space-x-4  justify-center content-center mt-12">
         <div className="card flex flex-col max-w-[414px] mb-6">
           <picture className="relative rounded-xl overflow-hidden">
             <div className="overlay cursor-pointer absolute w-full h-full bg-black opacity-30 peer z-10"></div>

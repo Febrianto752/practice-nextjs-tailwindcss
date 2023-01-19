@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Banner() {
   return (
-    <div className="flex">
+    <div className="flex rounded-br-3xl rounded-bl-3xl overflow-hidden">
       <div
         className="flex-col space-y-6 pt-36 px-6 pb-24 sm:basis-[60%] xl:basis-[50%] bg-cover bg-center"
         style={{ backgroundImage: 'url("/images/bg-blur.png")' }}
@@ -19,7 +19,7 @@ function Banner() {
         </p>
 
         <div className="flex items-center">
-          <button className="px-8 py-2 rounded-lg bg-slate-900 mr-4 text-white hover:shadow-lg active:scale-95">
+          <button className="px-8 py-2 rounded-xl bg-slate-900 mr-4 text-white hover:shadow-lg active:scale-95">
             Lihat Destinasi
           </button>
           <Link href="#" className="flex items-center hover:underline">

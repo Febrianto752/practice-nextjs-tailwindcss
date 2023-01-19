@@ -62,7 +62,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex space-x-12 mt-12 md:mt-0 max-w-[380px]">
+        <div className="flex space-x-4 sm:space-x-12 mt-12 md:mt-0 max-w-[380px]">
           <div className="flex flex-col space-y-4">
             <h4 className="font-semibold text-slate-900">Destinasi</h4>
             <Link href="#" className="hover:underline">
