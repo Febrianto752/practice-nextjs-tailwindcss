@@ -4,6 +4,7 @@ import Banner from "@/components/organisms/Banner";
 import Destination from "@/components/organisms/Destination";
 import Features from "@/components/organisms/Features";
 import Gallery from "@/components/organisms/Gallery";
+import Subscribe from "@/components/organisms/Subscribe";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Destination />
         <Features />
         <Gallery />
+        <Subscribe />
       </main>
 
       <br />

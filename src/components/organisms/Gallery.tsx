@@ -23,7 +23,7 @@ function Gallery() {
         </button>
       </div>
 
-      <div className="flex flex-col items-center space-y-3 lg:flex-row lg:space-y-0 lg:space-x-3 lg:items-start">
+      <div className="flex flex-col items-center space-y-3 lg:flex-row lg:space-y-0 lg:space-x-3 lg:items-start lg:justify-center">
         <picture className="relative overflow-hidden">
           <img
             src="/images/gallery-1.png"
