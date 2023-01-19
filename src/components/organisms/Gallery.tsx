@@ -52,11 +52,11 @@ function Gallery() {
           </picture>
 
           <div className="flex space-x-3 mt-3">
-            <picture className="max-w-[304px] h-full relative overflow-hidden rounded-br-xl rounded-bl-xl">
+            <picture className="grow h-full relative overflow-hidden rounded-br-xl rounded-bl-xl">
               <img
                 src="/images/gallery-3.png"
                 alt="gallery"
-                className="peer cursor-pointer"
+                className="peer cursor-pointer w-full"
               />
               <div className="overlay absolute w-full h-28 -bottom-28  bg-black opacity-0 peer-hover:opacity-50 peer-hover:bottom-0 duration-1000 hover:opacity-50 hover:bottom-0">
                 <h3 className="text-white font-semibold text-center mt-12">
@@ -65,11 +65,11 @@ function Gallery() {
               </div>
             </picture>
 
-            <picture className="max-w-[304px] h-full relative overflow-hidden rounded-br-xl rounded-bl-xl">
+            <picture className="grow h-full relative overflow-hidden rounded-br-xl rounded-bl-xl">
               <img
                 src="/images/gallery-4.png"
                 alt="gallery"
-                className="peer cursor-pointer"
+                className="peer cursor-pointer w-full"
               />
               <div className="overlay absolute w-full h-28 -bottom-28  bg-black opacity-0 peer-hover:opacity-50 peer-hover:bottom-0 duration-1000 hover:opacity-50 hover:bottom-0">
                 <h3 className="text-white font-semibold text-center mt-12">
