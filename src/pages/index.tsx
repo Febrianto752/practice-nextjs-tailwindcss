@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/components/organisms/Navbar";
 import Banner from "@/components/organisms/Banner";
+import Destination from "@/components/organisms/Destination";
 
 export default function Home() {
   return (
@@ -16,10 +17,19 @@ export default function Home() {
         <Banner />
       </header>
       <main id="maincontent">
-        <section>
-          <h1 className="text-center">Destinasi Tempat Terbaik</h1>
-        </section>
+        <Destination />
       </main>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }

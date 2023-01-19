@@ -9,7 +9,7 @@ function Banner() {
         className="flex-col space-y-6 pt-36 px-6 pb-24 sm:basis-[60%] xl:basis-[50%] bg-cover bg-center"
         style={{ backgroundImage: 'url("/images/bg-blur.png")' }}
       >
-        <h1 className="text-3xl md:text-5xl font-bold leading-10">
+        <h1 className="text-3xl  md:text-4xl lg:text-5xl font-bold md:leading-[3rem] lg:leading-[3.5rem]">
           Mari Nikmati Liburan Perjalanan Anda Dengan Tujuan Perjalananmu
         </h1>
         <p className="text-slate-500">

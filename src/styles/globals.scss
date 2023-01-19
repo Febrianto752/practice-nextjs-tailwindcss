@@ -10,13 +10,13 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-$primary-color: #0c111f;
-$secondary-color: #1c3f4d;
-$gray-color: #70737c;
+$primary-color: #0c111f; // slate-900
+$secondary-color: #1c3f4d; // sky-900
+$gray-color: #70737c; // slate-400
 
-$light-gray-color: #6f717a;
+$light-gray-color: #6f717a; // slate-500
 // teal-400 sepertinya
-$teal-color: #07b3ae;
+$teal-color: #07b3ae; // teal-400
 
 .text-gray {
   color: $gray-color;
@@ -27,7 +27,7 @@ $teal-color: #07b3ae;
 }
 
 .text-teal {
-  color: $teal-color;
+  color: $teal-color; //text-teal-400
 }
 
 .text-primary {
